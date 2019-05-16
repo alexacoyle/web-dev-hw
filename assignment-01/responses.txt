@@ -1,0 +1,4 @@
+The web is different than the internet as the internet is a mulitude of different networks, while the web is a compilation of information from the Internet
+The internet acts like a "wire" made up of different servers and networks each with a unique IP address, providing different information.
+A directory is a "folder" that contains related files which organizes different files into groups
+Using a VCS is beneficial because you can track the changes made, you can revert back to old work, and it is easier to share and collborate with others
