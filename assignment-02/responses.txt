@@ -1,0 +1,5 @@
+My Responses:
+Data travels on the internet through bits which are the "atoms" of the internet
+The relationship between IP addresses and DNS is that DNS corresponds names with IP addresses in order for us to find sites on the internet
+A cookie is a package of information or data that a computer receives and sends back allowing us to view websites.
+The three basic parts of a URL are the Protocol, Domain, and Path
