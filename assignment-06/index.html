@@ -2,21 +2,10 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="Good Food Store" content="This page dispays information about the local Good Food Store"
-  <meta name="author" content="Alexa Coyle"
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"
-<h1>The Good Food Store</h1>
-<body>
-<p>
-<address>
-The Good Food Store<br />
-1600 S 3rd St W<br />
-Missoula, MT 59801
-(406) 541-3663
-</address>
-<a href="malto:alexa.coyle@umontana.edu">Alexa's Email</a>
-</p>
-<head>
+  <meta name="description" content="This page dispays information about the local Good Food Store">
+  <meta name="author" content="Alexa Coyle">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Good Food Store</title>
 <style>
     table, th, td {
       border: 1px solid black;
@@ -24,6 +13,18 @@ Missoula, MT 59801
 </style>
 </head>
 <body>
+<p>
+<address>
+The Good Food Store<br />
+1600 S 3rd St W<br />
+Missoula, MT 59801<br />
+(406) 541-3663<br />
+</address>
+<a href="mailto:alexa.coyle@umontana.edu">Alexa's Email</a>
+</p>
+
+
+
 <table>
 <tr>
 <th></th>
@@ -46,18 +47,17 @@ Missoula, MT 59801
 <td>7 AM - 10 PM</td>
 </tr>
 </table>
-</body>
+
 <form action="https://www.goodfoodstore.com/" method="get" id="subscribe-form" class="basic-forms">
   </form>
   <form action="https://www.goodfoodstore.com/" method="post" id="sign-in" class="basic-forms">
+  <p>
+    Full Name:
     <input type="text" name="username" id="username_input" />
+  </p>
 <p>
-  Net ID:
-  <input type="text" name="name" id="test-text" />
-</p>
-<p>
-  Net ID:
-  <input type="text" name="name" id="test-text" placeholder="ab123456"/>
+  Phone Number:
+  <input type="number" name="phone" id="test-text" />
 </p>
 <p>
   Comments or Concerns:
@@ -67,3 +67,5 @@ Missoula, MT 59801
      <input type="text" name="email" />
      <input type="submit" name="subscribe" value="Subscribe" />
 </form>
+</body>
+</html>
