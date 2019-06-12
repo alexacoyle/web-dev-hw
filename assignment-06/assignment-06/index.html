@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="This page dispays information about the local Good Food Store">
+  <meta name="author" content="Alexa Coyle">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Good Food Store</title>
+<style>
+    table, th, td {
+      border: 1px solid black;
+    }
+</style>
+</head>
+<body>
+<p>
+<h1>The Good Food Store</h1>
+<address>
+The Good Food Store<br />
+1600 S 3rd St W<br />
+Missoula, MT 59801<br />
+(406) 541-3663<br />
+</address>
+<a href="mailto:alexa.coyle@umontana.edu">Alexa's Email</a>
+</p>
+
+
+
+<table>
+<tr>
+<th></th>
+<th scope="col">Monday</th>
+<th scope="col">Tuesday</th>
+<th scope="col">Wednesday</th>
+<th scope="col">Thursday</th>
+<th scope="col">Friday</th>
+<th scope="col">Saturday</th>
+<th scope="col">Sunday</th>
+</tr>
+<tr>
+<th scope="row">Hours Open</th>
+<td>7 AM - 10 PM</td>
+<td>7 AM - 10 PM</td>
+<td>7 AM - 10 PM</td>
+<td>7 AM - 10 PM</td>
+<td>7 AM - 10 PM</td>
+<td>7 AM - 10 PM</td>
+<td>7 AM - 10 PM</td>
+</tr>
+</table>
+
+<form action="https://www.goodfoodstore.com/" method="get" id="subscribe-form" class="basic-forms">
+  </form>
+  <form action="https://www.goodfoodstore.com/" method="post" id="sign-in" class="basic-forms">
+  <p>
+    Full Name:
+    <input type="text" name="username" id="username_input" />
+  </p>
+<p>
+  Phone Number:
+  <input type="number" name="phone" id="test-text" />
+</p>
+<p>
+  Comments or Concerns:
+  <textarea name="comments" id="test-textarea">Enter up to 500 characters...</textarea>
+</p>
+<p>Subscribe to our e-mail list:</p>
+     <input type="text" name="email" />
+     <input type="submit" name="subscribe" value="Subscribe" />
+</form>
+</body>
+</html>
