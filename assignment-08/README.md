@@ -1,0 +1,1 @@
+My experience learning HTML was new, interesting, but also difficult. My favorite part of learning this material was creating the website through the HTML code and then going to see what you created entering the URL and being pleseantly suprised. This was a rewarding feeling. The most difficult part to learn was the media unit involving video and audio.
