@@ -1,0 +1,32 @@
+<head>
+.rectangle {
+      background-color: red;
+      height: 100px;
+      width: 50px;
+      position: absolute;
+      left: 50px;
+    }
+</head>
+body {
+   background-color: teal;
+
+   text-align: center;
+   padding: 10px;
+   border: 5px solid #000000;
+ }
+ .main-container {
+   background: purple;
+   border: 3px solid #000000;
+   background-color: rgb(255, 0, 0);
+ }
+}
+
+/* Text Styling: */
+h1, h2 {
+   color: pink;
+}
+p {
+  color: white
+}
+/* The 1980s had vibrant colors. */
+</body>
