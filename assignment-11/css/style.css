@@ -1,0 +1,9 @@
+.my-box {
+  width: 600px;
+  height: 400px;
+  border: 2px solid #623529;
+  padding: 1em;
+  margin: 1em;
+  position: fixed;
+  z-index: 8
+}
