@@ -1,9 +1,9 @@
-<body>
+
 h1 {
-   font-family: sans-serif;
    font-size: 30pt;
    font-weight: bolder;
      line-height: normal;
+    font-family: 'B612 Mono', monospace;
 }
   .main-container {
       background-color: blue;
@@ -11,7 +11,7 @@ h1 {
       padding: 10px;
       border: 5px solid #000000;
    }
-}
+
 h2 {
    font-family: sans-serif;
    font-size: 28pt;
@@ -20,16 +20,20 @@ h2 {
 }
 
 p {
-   font-family: serif;
+  font-family: 'Montserrat', sans-serif;
    font-size: 16pt;
    font-weight: normal;
    font-style: italic;
-     line-height: normal;
-     first-letter {
+  line-height: normal;
   color: green;
 }
 
-a:link {
+p::first-letter {
+  font-size: 30pt
+
+}
+
+a:hover {
    color: #79AF33;
    text-decoration: none;
 }
@@ -41,4 +45,3 @@ a:link {
     font-family: 'Comic Sans'
     }
 #p { font-family: 'sans-serif'}
-</body>
