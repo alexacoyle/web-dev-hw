@@ -63,7 +63,7 @@ font-weight: 900;
 display: block;
 }
 
-#site-links .dropdown:hover .dropdowncontent{
+#site-links .dropdown:hover .dropdown-content{
   display: block;
 }
 #site-links .dropdown-item {
