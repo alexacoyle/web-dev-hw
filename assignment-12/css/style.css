@@ -1,11 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=B612+Mono|Mali&display=swap');
 body{
   background-color: green;
   border: 10px dotted limegreen;
-  font-size: 20 px;
+  font-size: 20px;
   text-align: center;
+  color: white;
+  font-family: 'B612 Mono', monospace;
+}
+h1, h2{
+  font-family: 'Mali', cursive;
+}
+
+#navigation {
+  margin: 0;
+  padding: 0;
+  background-color: : darkgreen;
+  display: block;
+
+}
+#site-links{
+  margin: 0;
+  padding:0;
+  display: block;
+}
+#site-links .menu-item {
+  width: 6em;
+  padding: .5em 1em
+
+  background color: yellow;
+  text-align: center;
+  display: inline-block;
 
 }
 
-color-text{
+#site-links .menu-item:hover{
+  background-color: yellow;
+  text-decoration: underline overline;
+  text-decoration-color: yellow;
+}
+
+#site-links .dropdown {
+  display: inline-block;
+  width: 6em;
+}
+
+#site-links .dropdown-content{
+  display: none;
+  position: absolute;
+
+  background-color: limegreen;
+  z-index: 5;
+}
+
+#site-links .dropdown-content a {
   color: white
+  font-family: "Arvo", Georgia, serif;
+}
+
+#site-links .dropdown-content a:hover {
+color: darkgreen;
+font-weight: 900;
+display: block;
+}
+
+#site-links .dropdown:hover .dropdowncontent{
+  display: block;
+}
+#site-links .dropdown-item {
+  min-width: 6em;
+  padding: .5em 1em;
+  display: block;
+
+  text-align:center;
+}
+
+.dropdown-item:hover{
+  background-color: limegreen;
+  display: block;
 }
